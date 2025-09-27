@@ -1,0 +1,17 @@
+{
+  "name": "parse-server-example",
+  "version": "1.0.0",
+  "description": "Simple Parse Server for testing with Parse Dashboard",
+  "main": "parse-server-example.js",
+  "scripts": {
+    "start": "node parse-server-example.js",
+    "dev": "nodemon parse-server-example.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "parse-server": "^7.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

@@ -2,13 +2,21 @@
   "apps": [
     {
       "serverURL": "http://localhost:1337/parse",
-      "appId": "hello",
-      "masterKey": "world",
-      "appName": "",
-      "iconName": "",
-      "primaryBackgroundColor": "",
-      "secondaryBackgroundColor": ""
+      "appId": "myAppId",
+      "masterKey": "myMasterKey",
+      "appName": "My Test App",
+      "iconName": "javascript.svg",
+      "primaryBackgroundColor": "#169CEE",
+      "secondaryBackgroundColor": "#208AEE"
     }
   ],
-  "iconsFolder": "icons"
+  "iconsFolder": "icons",
+  "users": [
+    {
+      "user": "admin",
+      "pass": "admin123"
+    }
+  ],
+  "useEncryptedPasswords": false,
+  "trustProxy": 1
 }
